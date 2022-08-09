@@ -56,12 +56,19 @@
 | ActiveMQ                       | **+**                                              | **+**                                           | -                       | **+**                                  | **+**                                                 | **+**                 |
 
 Для подготовки итоговой таблицы я использовал следующие источники:
+
 https://habr.com/ru/company/vivid_money/blog/534858/
+
 https://kafka.apache.org/31/documentation.html#introduction 
+
 https://habr.com/ru/company/sberbank/blog/669456/
+
 https://www.rabbitmq.com/documentation.html 
+
 https://selectel.ru/blog/apache-kafka/
+
 https://activemq.apache.org/components/classic/documentation
+
 
 На основе сделанного анализа можно сказать, что для решения поставленной задачи можно будет использовать один из 2 представленных брокеров сообщений, это RabbitMQ или Apache Kafka. Оба этих брокера соответствуют всем заявленным требованиям.
 Платформа Platform V Corax является собственной разработкой Сбербанка, информации по ней крайне мало нашел. Продукт новый, и как мне кажется, что он написан для узкого круга лиц, что автоматически делает его тяжелым в эксплуатации, если не сказать, что придется приглашать специалистов со стороны чтобы его обслуживать.
